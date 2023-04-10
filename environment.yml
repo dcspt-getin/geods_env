@@ -1,0 +1,7 @@
+name: geods_env
+channels:
+  - conda-forge
+dependencies:
+  - pysal=23.1
+  - geopandas=0.12.2
+  - jupyter=1.0.0

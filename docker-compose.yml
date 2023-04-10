@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  notebook:
+    build: .
+    image: geo-datascience
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/app
+    command:
+      [
+        "jupyter",
+        "notebook",
+        "--ip=0.0.0.0",
+        "--port=8888",
+        "--no-browser",
+        "--allow-root",
+      ]
