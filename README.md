@@ -19,9 +19,9 @@ Before you can use this environment, you need to have Anaconda or Miniconda inst
 
   **Conda-Lock** is necessary for Operating system transivity.
 
-"""
+```
 conda install -c conda-forge conda-lock
-"""
+```
 
 ## Installation
 
@@ -35,9 +35,9 @@ You can either clone this repository using Git or download the files as a ZIP ar
 
 If you have Git installed, open your terminal and run:
 
-"""
+```
 git clone https://github.com/dcspt-getin/geods_env.git
-"""
+```
 
 #### Option 2: Download the repository as a ZIP archive
 
@@ -54,20 +54,20 @@ Follow the instructions below for your specific operating system:
 2. Change the directory to the location where you downloaded/cloned the repository.
 3. Run the following command to create the environment:
 
-"""
+```
 conda-lock install --name geods_env conda-lock.yml
-"""
+```
 
 4. Activate the environment with:
 
-"""
+```
 conda activate geods_env
-"""
+```
 
 5. Launch Jupyter Notebook by running:
 
-"""
+```
 jupyter notebook
-"""
+```
 
 Now you can use the geospatial data science environment in your Jupyter Notebooks!
